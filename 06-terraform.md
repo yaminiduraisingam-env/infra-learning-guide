@@ -14,6 +14,17 @@ Weeks 15-18 (Feb 8 - Mar 7) · 24 hours · [Back to contents](TOC.md)
 
 **Setup:** install `terraform` and `tofu`. Use the AWS free tier or the `local` and `random` providers so labs cost nothing.
 
+## Week by week: what to open
+
+Main course: **HashiCorp Developer, Terraform "Get Started" tutorials** (free, hands-on). Pick one video course (Pluralsight or Coursera Terraform Associate prep) and spread it over the four weeks. Keep the official exam objectives open and tick them off.
+
+| Week | Do this | Covers |
+| --- | --- | --- |
+| 15 | Get Started: install, build, change and destroy infrastructure, input variables, outputs. Video course: first third | 6.1, start of 6.2 |
+| 16 | Docs: expressions, `count` and `for_each`, providers, data sources, lifecycle. Video course: second third | rest of 6.2, 6.3, start of 6.4 |
+| 17 | Tutorials: remote state, import, state commands, modules. Video course: last third | rest of 6.4, 6.5 |
+| 18 | Docs: workspaces, sensitive data. Review every exam objective. 2-3 full practice exams | 6.6, exam |
+
 ## 6.1 IaC concepts and the core workflow
 
 **Week 15 · 4 hrs** · [Take the quiz](quiz.html?t=6.1)

@@ -13,6 +13,16 @@ Weeks 12-14 (Jan 18 - Feb 7) · 18 hours · [Back to contents](TOC.md)
 
 **Setup:** install `kubectl`, `kind` and `helm`. Create a cluster with `kind create cluster`.
 
+## Week by week: what to open
+
+Main course: **kubernetes.io "Learn Kubernetes Basics"** (6 interactive modules, free) plus the **Concepts** section of the Kubernetes docs. Optional video: Linux Foundation "Introduction to Kubernetes" (edX, free) or a Pluralsight Kubernetes fundamentals course.
+
+| Week | Do this | Covers |
+| --- | --- | --- |
+| 12 | Basics modules 1-3 (create a cluster, deploy an app, explore). Concepts docs: Pods, ReplicaSets, Deployments, Namespaces | 5.1 |
+| 13 | Basics modules 4-6 (expose, scale, update). Concepts docs: Service, Ingress, ConfigMaps, Secrets, Volumes | 5.2, 5.3 |
+| 14 | Docs: "Using RBAC Authorization", resource requests and limits, taints and tolerations. Helm docs: quickstart and "Using Helm". Then the env0 `agent/helm` lab | 5.4, 5.5 |
+
 ## 5.1 Architecture and core objects
 
 **Week 12 · 6 hrs** · [Take the quiz](quiz.html?t=5.1)

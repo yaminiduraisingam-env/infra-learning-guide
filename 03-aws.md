@@ -12,6 +12,18 @@ Weeks 7-9 (Dec 14 - Jan 3) · 18 hours · [Back to contents](TOC.md)
 - Tutorials Dojo practice exams (for the last 4 days)
 - AWS Free Tier account for the labs. Set a budget alert first.
 
+## Week by week: what to open
+
+Main course: **AWS Skill Builder, "AWS Cloud Practitioner Essentials"** (free, about 6 hours of video). Then one exam-prep course from Pluralsight or Coursera, and practice exams in the last days.
+
+| Week | Do this | Covers |
+| --- | --- | --- |
+| 7 | Essentials: intro to AWS, global infrastructure, security. Start your exam-prep course | 3.1, 3.2 |
+| 8 | Essentials: compute, storage and databases. Exam-prep course: same topics | 3.3, 3.4 |
+| 9 | Essentials: networking, monitoring, pricing and support, migration. Then 2-3 full practice exams (Skill Builder official set, Tutorials Dojo) | 3.5, 3.6, exam |
+
+Module names are from memory. Follow the order Skill Builder shows.
+
 ## 3.1 Cloud concepts and global infrastructure
 
 **Week 7 · 3 hrs** · [Take the quiz](quiz.html?t=3.1)

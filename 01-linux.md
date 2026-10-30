@@ -12,6 +12,18 @@ Weeks 1-3 (Nov 2 - Nov 22) · 18 hours · [Back to contents](TOC.md)
 
 **Setup:** use a Linux VM or a container (`docker run -it ubuntu bash`, or Multipass on Mac) so you can break things safely.
 
+## Week by week: what to open
+
+Main course: **Linux Journey** (linuxjourney.com, free, short lessons). Backup: Shotts' book chapters, plus Pluralsight videos if you prefer them. Each week, finish the items below, then do the labs and quizzes in the topics that follow.
+
+| Week | Do this | Covers |
+| --- | --- | --- |
+| 1 | Linux Journey: "Process Utilization". Shotts book: chapter 10 "Processes". Pluralsight: one Linux fundamentals course, process and memory modules | 1.1, first half of 1.2 |
+| 2 | Linux Journey: "Filesystem" and "Devices". Shotts: chapter 9 "Permissions". Linux Journey: "Boot the System", "Kernel" | rest of 1.2, 1.3, start of 1.4 |
+| 3 | Linux Journey: "Init" and "Logging". Watch Liz Rice, "Containers from scratch" (YouTube). Read the intro of `man 7 namespaces` and `man 7 cgroups` | rest of 1.4, 1.5 |
+
+Section names are from memory of the sites. If one has moved, search the topic on the same site.
+
 ## 1.1 Processes and signals
 
 **Week 1 · 4 hrs** · [Take the quiz](quiz.html?t=1.1)

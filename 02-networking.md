@@ -11,6 +11,18 @@ Weeks 4-6 (Nov 23 - Dec 13) · 18 hours · [Back to contents](TOC.md)
 - Practical Networking (YouTube): subnetting, NAT, routing
 - Pluralsight: search "networking fundamentals" or "TCP/IP"
 
+## Week by week: what to open
+
+Main course: **Coursera, "The Bits and Bytes of Computer Networking"** (Google, 5 modules, about 20 hours). Watch at 1.25x and skip quizzes you can already ace. Use the free sources below to fill gaps.
+
+| Week | Do this | Covers |
+| --- | --- | --- |
+| 4 | Coursera module 1 (network layers, IP addressing, subnetting). Practical Networking (YouTube): subnetting videos | 2.1, start of 2.2 |
+| 5 | Coursera module 2 (TCP, UDP, ports) and module 3 (DNS, DHCP, NAT). Cloudflare Learning Center: "What is DNS?" | rest of 2.2, 2.3, start of 2.4 |
+| 6 | Coursera module 4 (connecting to the internet, routing), then skim module 5. Cloudflare: "What is TLS?" and "What is a load balancer?" | rest of 2.4, 2.5 |
+
+If you finish early, read the TLS chapter of *High Performance Browser Networking*.
+
 ## 2.1 OSI, TCP/IP and IP addressing
 
 **Week 4 · 5 hrs** · [Take the quiz](quiz.html?t=2.1)

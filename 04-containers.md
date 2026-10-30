@@ -12,6 +12,15 @@ Weeks 10-11 (Jan 4 - Jan 17) · 12 hours · [Back to contents](TOC.md)
 
 **Setup:** install Docker Desktop or Colima. Check with `docker run hello-world`.
 
+## Week by week: what to open
+
+Main course: **Docker "Get started" guide** (docs.docker.com, free, hands-on). Pair it with one Pluralsight "Docker fundamentals" course if you want video.
+
+| Week | Do this | Covers |
+| --- | --- | --- |
+| 10 | Get started: containerize an app, then the Dockerfile and image-building best practices pages (layers, cache, multi-stage). Pluralsight: images and Dockerfile modules | 4.1, start of 4.2 |
+| 11 | Get started: persisting data (volumes), networking, Docker Compose. Docs: push to a registry. Trivy "Getting started" | rest of 4.2, 4.3 |
+
 ## 4.1 Images, layers and Dockerfiles
 
 **Week 10 · 4 hrs** · [Take the quiz](quiz.html?t=4.1)
