@@ -7,16 +7,18 @@ Weeks 15-18 (Feb 8 - Mar 7) · 24 hours · [Back to contents](TOC.md)
 **Why it matters:** this is what env0 runs. OpenTofu is a compatible fork, so everything here applies. The exam covers Terraform, so learn the few differences as you go.
 
 **Resources**
-- HashiCorp Developer tutorials (free): "Get started" and "Associate prep" paths
-- Pluralsight or Coursera: a Terraform Associate course
-- OpenTofu docs (opentofu.org)
-- Practice exams (Bryan Krausen's are popular) for the last week
+- [HashiCorp Developer Terraform tutorials](https://developer.hashicorp.com/terraform/tutorials) (free): "Get started" and exam prep
+- [Terraform docs](https://developer.hashicorp.com/terraform/docs)
+- [Official Terraform Associate exam page](https://developer.hashicorp.com/certifications/infrastructure-automation)
+- [Pluralsight](https://www.pluralsight.com) or [Coursera](https://www.coursera.org): a Terraform Associate course
+- [OpenTofu docs](https://opentofu.org/docs/)
+- Practice exams (Bryan Krausen's on Udemy are popular) for the last week
 
 **Setup:** install `terraform` and `tofu`. Use the AWS free tier or the `local` and `random` providers so labs cost nothing.
 
 ## Week by week: what to open
 
-Main course: **HashiCorp Developer, Terraform "Get Started" tutorials** (free, hands-on). Pick one video course (Pluralsight or Coursera Terraform Associate prep) and spread it over the four weeks. Keep the official exam objectives open and tick them off.
+Main course: **[HashiCorp Developer, Terraform "Get Started" tutorials](https://developer.hashicorp.com/terraform/tutorials)** (free, hands-on). Pick one video course (Pluralsight or Coursera Terraform Associate prep) and spread it over the four weeks. Keep the official exam objectives open and tick them off.
 
 | Week | Do this | Covers |
 | --- | --- | --- |

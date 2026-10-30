@@ -5,16 +5,16 @@ Weeks 10-11 (Jan 4 - Jan 17) · 12 hours · [Back to contents](TOC.md)
 **Why it matters:** the env0 agent and every deployment run in containers. Kubernetes in Phase 5 builds directly on this.
 
 **Resources**
-- Docker "Get started" docs (free)
-- Pluralsight: search "Docker fundamentals" or "Docker deep dive"
-- Liz Rice, "Containers from scratch" (YouTube), if you skipped it in Phase 1
-- Trivy docs for scanning
+- [Docker "Get started" docs](https://docs.docker.com/get-started/) (free)
+- [Pluralsight](https://www.pluralsight.com): search "Docker fundamentals" or "Docker deep dive"
+- [Liz Rice, "Containers from scratch"](https://www.youtube.com/results?search_query=liz+rice+containers+from+scratch), if you skipped it in Phase 1
+- [Trivy docs](https://trivy.dev) for scanning
 
 **Setup:** install Docker Desktop or Colima. Check with `docker run hello-world`.
 
 ## Week by week: what to open
 
-Main course: **Docker "Get started" guide** (docs.docker.com, free, hands-on). Pair it with one Pluralsight "Docker fundamentals" course if you want video.
+Main course: **[Docker "Get started" guide](https://docs.docker.com/get-started/)** (free, hands-on). Pair it with one [Pluralsight](https://www.pluralsight.com) "Docker fundamentals" course if you want video.
 
 | Week | Do this | Covers |
 | --- | --- | --- |

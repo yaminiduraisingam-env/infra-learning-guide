@@ -5,23 +5,25 @@ Weeks 12-14 (Jan 18 - Feb 7) · 18 hours · [Back to contents](TOC.md)
 **Why it matters:** the env0 self-hosted agent is installed with Helm on Kubernetes. Understanding pods, services and RBAC lets you debug customer installs.
 
 **Resources**
-- kubernetes.io "Kubernetes Basics" tutorials (free)
-- killercoda.com (free in-browser labs)
-- Pluralsight: search "Kubernetes fundamentals" or "Kubernetes for developers"
-- Kelsey Hightower, "Kubernetes the Hard Way" (optional, after week 14)
-- Helm docs (helm.sh)
+- [Kubernetes Basics tutorials](https://kubernetes.io/docs/tutorials/kubernetes-basics/) (free)
+- [Kubernetes Concepts docs](https://kubernetes.io/docs/concepts/)
+- [Killercoda](https://killercoda.com) (free in-browser labs)
+- [Pluralsight](https://www.pluralsight.com): search "Kubernetes fundamentals" or "Kubernetes for developers"
+- [Kelsey Hightower, "Kubernetes the Hard Way"](https://github.com/kelseyhightower/kubernetes-the-hard-way) (optional, after week 14)
+- [Helm docs](https://helm.sh/docs/)
+- [kind](https://kind.sigs.k8s.io) for the local cluster
 
 **Setup:** install `kubectl`, `kind` and `helm`. Create a cluster with `kind create cluster`.
 
 ## Week by week: what to open
 
-Main course: **kubernetes.io "Learn Kubernetes Basics"** (6 interactive modules, free) plus the **Concepts** section of the Kubernetes docs. Optional video: Linux Foundation "Introduction to Kubernetes" (edX, free) or a Pluralsight Kubernetes fundamentals course.
+Main course: **[Learn Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)** (6 interactive modules, free) plus the **[Concepts](https://kubernetes.io/docs/concepts/)** section of the Kubernetes docs. Optional video: [Linux Foundation "Introduction to Kubernetes"](https://training.linuxfoundation.org/training/introduction-to-kubernetes/) (edX, free) or a [Pluralsight](https://www.pluralsight.com) Kubernetes fundamentals course.
 
 | Week | Do this | Covers |
 | --- | --- | --- |
 | 12 | Basics modules 1-3 (create a cluster, deploy an app, explore). Concepts docs: Pods, ReplicaSets, Deployments, Namespaces | 5.1 |
 | 13 | Basics modules 4-6 (expose, scale, update). Concepts docs: Service, Ingress, ConfigMaps, Secrets, Volumes | 5.2, 5.3 |
-| 14 | Docs: "Using RBAC Authorization", resource requests and limits, taints and tolerations. Helm docs: quickstart and "Using Helm". Then the env0 `agent/helm` lab | 5.4, 5.5 |
+| 14 | Docs: [Using RBAC Authorization](https://kubernetes.io/docs/reference/access-authn-authz/rbac/), resource requests and limits, taints and tolerations. [Helm docs](https://helm.sh/docs/): quickstart and "Using Helm". Then the env0 `agent/helm` lab | 5.4, 5.5 |
 
 ## 5.1 Architecture and core objects
 

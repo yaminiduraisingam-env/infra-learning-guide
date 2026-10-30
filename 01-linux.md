@@ -5,22 +5,23 @@ Weeks 1-3 (Nov 2 - Nov 22) · 18 hours · [Back to contents](TOC.md)
 **Why it matters:** every container, Kubernetes node and agent runs on Linux. Most "weird" production problems (OOM kills, stuck processes, full disks) are Linux problems.
 
 **Resources**
-- Linux Foundation "Introduction to Linux" (free, edX)
-- *The Linux Command Line* by William Shotts (free online)
-- Julia Evans' zines on processes, strace and the command line (wizardzines.com)
-- Pluralsight: search "Linux fundamentals" or "Linux system administration"
+- [Linux Journey](https://linuxjourney.com) (free, main course)
+- [*The Linux Command Line* by William Shotts](https://linuxcommand.org/tlcl.php) (free online)
+- [Linux Foundation "Introduction to Linux"](https://training.linuxfoundation.org/training/introduction-to-linux/) (free, edX)
+- [Julia Evans' zines](https://wizardzines.com) on processes, strace and the command line
+- [Pluralsight](https://www.pluralsight.com): search "Linux fundamentals" or "Linux system administration"
 
 **Setup:** use a Linux VM or a container (`docker run -it ubuntu bash`, or Multipass on Mac) so you can break things safely.
 
 ## Week by week: what to open
 
-Main course: **Linux Journey** (linuxjourney.com, free, short lessons). Backup: Shotts' book chapters, plus Pluralsight videos if you prefer them. Each week, finish the items below, then do the labs and quizzes in the topics that follow.
+Main course: **[Linux Journey](https://linuxjourney.com)** (free, short lessons). Backup: [Shotts' book](https://linuxcommand.org/tlcl.php) chapters, plus [Pluralsight](https://www.pluralsight.com) videos if you prefer them. Each week, finish the items below, then do the labs and quizzes in the topics that follow.
 
 | Week | Do this | Covers |
 | --- | --- | --- |
-| 1 | Linux Journey: "Process Utilization". Shotts book: chapter 10 "Processes". Pluralsight: one Linux fundamentals course, process and memory modules | 1.1, first half of 1.2 |
-| 2 | Linux Journey: "Filesystem" and "Devices". Shotts: chapter 9 "Permissions". Linux Journey: "Boot the System", "Kernel" | rest of 1.2, 1.3, start of 1.4 |
-| 3 | Linux Journey: "Init" and "Logging". Watch Liz Rice, "Containers from scratch" (YouTube). Read the intro of `man 7 namespaces` and `man 7 cgroups` | rest of 1.4, 1.5 |
+| 1 | [Linux Journey](https://linuxjourney.com): "Process Utilization". [Shotts book](https://linuxcommand.org/tlcl.php): chapter 10 "Processes". [Pluralsight](https://www.pluralsight.com): one Linux fundamentals course, process and memory modules | 1.1, first half of 1.2 |
+| 2 | [Linux Journey](https://linuxjourney.com): "Filesystem", "Devices", "Boot the System", "Kernel". Shotts: chapter 9 "Permissions" | rest of 1.2, 1.3, start of 1.4 |
+| 3 | [Linux Journey](https://linuxjourney.com): "Init" and "Logging". Watch [Liz Rice, "Containers from scratch"](https://www.youtube.com/results?search_query=liz+rice+containers+from+scratch). Read the intros of [namespaces(7)](https://man7.org/linux/man-pages/man7/namespaces.7.html) and [cgroups(7)](https://man7.org/linux/man-pages/man7/cgroups.7.html) | rest of 1.4, 1.5 |
 
 Section names are from memory of the sites. If one has moved, search the topic on the same site.
 

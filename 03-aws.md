@@ -7,14 +7,15 @@ Weeks 7-9 (Dec 14 - Jan 3) · 18 hours · [Back to contents](TOC.md)
 **Why it matters:** env0's services run on AWS, and customers connect their AWS accounts through roles and credentials.
 
 **Resources**
-- AWS Skill Builder: "AWS Cloud Practitioner Essentials" (free) and the official practice question set
-- Pluralsight or Coursera: a Cloud Practitioner exam prep course
-- Tutorials Dojo practice exams (for the last 4 days)
-- AWS Free Tier account for the labs. Set a budget alert first.
+- [AWS Skill Builder](https://skillbuilder.aws): "AWS Cloud Practitioner Essentials" (free) and the official practice question set. Search the course name after signing in.
+- [Pluralsight](https://www.pluralsight.com) or [Coursera](https://www.coursera.org): a Cloud Practitioner exam prep course
+- [Tutorials Dojo](https://tutorialsdojo.com) practice exams (for the last 4 days)
+- [AWS Free Tier](https://aws.amazon.com/free/) account for the labs. Set a budget alert first.
+- [Official exam page and guide](https://aws.amazon.com/certification/certified-cloud-practitioner/)
 
 ## Week by week: what to open
 
-Main course: **AWS Skill Builder, "AWS Cloud Practitioner Essentials"** (free, about 6 hours of video). Then one exam-prep course from Pluralsight or Coursera, and practice exams in the last days.
+Main course: **[AWS Skill Builder, "AWS Cloud Practitioner Essentials"](https://skillbuilder.aws)** (free, about 6 hours of video). Then one exam-prep course from Pluralsight or Coursera, and practice exams in the last days.
 
 | Week | Do this | Covers |
 | --- | --- | --- |
