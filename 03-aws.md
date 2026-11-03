@@ -7,6 +7,12 @@ Weeks 7-9 (Dec 14 - Jan 3) · 18 hours · [Back to contents](TOC.md)
 **Why it matters:** env0's services run on AWS, and customers connect their AWS accounts through roles and credentials.
 
 **Resources**
+- From your mentor (Pluralsight):
+  - [AWS Certified Cloud Practitioner (CLF-C02): Cloud Foundations and Compute](https://app.pluralsight.com/library/courses/97bc79ee-8145-4aa7-8085-af58378da5f0) (1h 33m)
+  - [AWS Core Compute](https://app.pluralsight.com/learning-paths/9e860671-6e3b-4ad1-8bac-4a4ff53447ce) (5h 6m)
+  - [AWS Networking and Traffic Management](https://app.pluralsight.com/learning-paths/3e0cfd70-d397-4357-9808-c663bcbd5f64) (3h 38m)
+  - [AWS Storage Fundamentals](https://app.pluralsight.com/ilx/video-courses/9382c46e-27d4-452a-9969-f1f24c46395f/course-overview) (1h)
+  - [AWS Certified Solutions Architect - Associate (SAA-C03): Scaling and Decoupling Architectures](https://app.pluralsight.com/ilx/video-courses/f4cdefa6-83dc-4aef-9efe-da42f72f6ba1/course-overview) (13h 41m). This is the next certification up, so save it for after the Cloud Practitioner exam.
 - [AWS Skill Builder](https://skillbuilder.aws): "AWS Cloud Practitioner Essentials" (free) and the official practice question set. Search the course name after signing in.
 - [Pluralsight](https://www.pluralsight.com) or [Coursera](https://www.coursera.org): a Cloud Practitioner exam prep course
 - [Tutorials Dojo](https://tutorialsdojo.com) practice exams (for the last 4 days)
@@ -15,13 +21,15 @@ Weeks 7-9 (Dec 14 - Jan 3) · 18 hours · [Back to contents](TOC.md)
 
 ## Week by week: what to open
 
-Main course: **[AWS Skill Builder, "AWS Cloud Practitioner Essentials"](https://skillbuilder.aws)** (free, about 6 hours of video). Then one exam-prep course from Pluralsight or Coursera, and practice exams in the last days.
+Main courses: your mentor's four Pluralsight courses (about 11 hours in total), starting with the CLF-C02 one, which matches the exam. Use **[AWS Skill Builder, "AWS Cloud Practitioner Essentials"](https://skillbuilder.aws)** (free) for what they don't cover: security, billing and pricing. Finish with practice exams.
 
 | Week | Do this | Covers |
 | --- | --- | --- |
-| 7 | Essentials: intro to AWS, global infrastructure, security. Start your exam-prep course | 3.1, 3.2 |
-| 8 | Essentials: compute, storage and databases. Exam-prep course: same topics | 3.3, 3.4 |
-| 9 | Essentials: networking, monitoring, pricing and support, migration. Then 2-3 full practice exams (Skill Builder official set, Tutorials Dojo) | 3.5, 3.6, exam |
+| 7 | Pluralsight: [CLF-C02 Cloud Foundations and Compute](https://app.pluralsight.com/library/courses/97bc79ee-8145-4aa7-8085-af58378da5f0) (1.5 hrs). Skill Builder Essentials: security module. Start [AWS Core Compute](https://app.pluralsight.com/learning-paths/9e860671-6e3b-4ad1-8bac-4a4ff53447ce) | 3.1, 3.2 |
+| 8 | Pluralsight: finish AWS Core Compute (5 hrs total), then [AWS Storage Fundamentals](https://app.pluralsight.com/ilx/video-courses/9382c46e-27d4-452a-9969-f1f24c46395f/course-overview) (1 hr) | 3.3, 3.4 |
+| 9 | Pluralsight: [AWS Networking and Traffic Management](https://app.pluralsight.com/learning-paths/3e0cfd70-d397-4357-9808-c663bcbd5f64) (3.6 hrs). Skill Builder Essentials: pricing and support module. Then 2-3 full practice exams (Skill Builder official set, Tutorials Dojo) | 3.5, 3.6, exam |
+
+**After the exam:** [SAA-C03 Scaling and Decoupling Architectures](https://app.pluralsight.com/ilx/video-courses/f4cdefa6-83dc-4aef-9efe-da42f72f6ba1/course-overview) (13 hrs) is the Solutions Architect Associate level. It is more than the Cloud Practitioner exam needs.
 
 Module names are from memory. Follow the order Skill Builder shows.
 

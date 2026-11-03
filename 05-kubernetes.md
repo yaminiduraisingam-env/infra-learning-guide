@@ -5,6 +5,9 @@ Weeks 12-14 (Jan 18 - Feb 7) · 18 hours · [Back to contents](TOC.md)
 **Why it matters:** the env0 self-hosted agent is installed with Helm on Kubernetes. Understanding pods, services and RBAC lets you debug customer installs.
 
 **Resources**
+- From your mentor (Pluralsight):
+  - [Kubernetes learning path](https://app.pluralsight.com/learning-paths/dc7ecfd4-4685-40b7-a8b3-eae7a0940a7f) (66h 8m)
+  - [Amazon EKS Quickstart](https://app.pluralsight.com/ilx/amazon-eks-quickstart/course-overview) (3h 12m)
 - [Kubernetes Basics tutorials](https://kubernetes.io/docs/tutorials/kubernetes-basics/) (free)
 - [Kubernetes Concepts docs](https://kubernetes.io/docs/concepts/)
 - [Killercoda](https://killercoda.com) (free in-browser labs)
@@ -17,13 +20,13 @@ Weeks 12-14 (Jan 18 - Feb 7) · 18 hours · [Back to contents](TOC.md)
 
 ## Week by week: what to open
 
-Main course: **[Learn Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)** (6 interactive modules, free) plus the **[Concepts](https://kubernetes.io/docs/concepts/)** section of the Kubernetes docs. Optional video: [Linux Foundation "Introduction to Kubernetes"](https://training.linuxfoundation.org/training/introduction-to-kubernetes/) (edX, free) or a [Pluralsight](https://www.pluralsight.com) Kubernetes fundamentals course.
+Main course: **[Learn Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)** (6 interactive modules, free) plus the **[Concepts](https://kubernetes.io/docs/concepts/)** section of the Kubernetes docs. Video: your mentor's [Kubernetes learning path](https://app.pluralsight.com/learning-paths/dc7ecfd4-4685-40b7-a8b3-eae7a0940a7f) on Pluralsight. It is 66 hours and this phase has 18, so take the first courses in order for about 5 hours a week and stop when you've covered the topics in the table. The rest is reference for later. Optional: [Linux Foundation "Introduction to Kubernetes"](https://training.linuxfoundation.org/training/introduction-to-kubernetes/) (edX, free). After week 14, or in the buffer week: [Amazon EKS Quickstart](https://app.pluralsight.com/ilx/amazon-eks-quickstart/course-overview) (3 hrs), since env0 customers often run on EKS.
 
 | Week | Do this | Covers |
 | --- | --- | --- |
-| 12 | Basics modules 1-3 (create a cluster, deploy an app, explore). Concepts docs: Pods, ReplicaSets, Deployments, Namespaces | 5.1 |
-| 13 | Basics modules 4-6 (expose, scale, update). Concepts docs: Service, Ingress, ConfigMaps, Secrets, Volumes | 5.2, 5.3 |
-| 14 | Docs: [Using RBAC Authorization](https://kubernetes.io/docs/reference/access-authn-authz/rbac/), resource requests and limits, taints and tolerations. [Helm docs](https://helm.sh/docs/): quickstart and "Using Helm". Then the env0 `agent/helm` lab | 5.4, 5.5 |
+| 12 | Pluralsight Kubernetes path: first ~5 hrs (architecture, Pods, Deployments). Basics modules 1-3 (create a cluster, deploy an app, explore). Concepts docs: Pods, ReplicaSets, Deployments, Namespaces | 5.1 |
+| 13 | Pluralsight Kubernetes path: next ~5 hrs (Services, config, storage). Basics modules 4-6 (expose, scale, update). Concepts docs: Service, Ingress, ConfigMaps, Secrets, Volumes | 5.2, 5.3 |
+| 14 | Pluralsight Kubernetes path: next ~5 hrs (RBAC, scheduling, Helm where covered). Docs: [Using RBAC Authorization](https://kubernetes.io/docs/reference/access-authn-authz/rbac/), resource requests and limits, taints and tolerations. [Helm docs](https://helm.sh/docs/): quickstart and "Using Helm". Then the env0 `agent/helm` lab | 5.4, 5.5 |
 
 ## 5.1 Architecture and core objects
 

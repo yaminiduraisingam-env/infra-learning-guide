@@ -5,6 +5,9 @@ Weeks 10-11 (Jan 4 - Jan 17) · 12 hours · [Back to contents](TOC.md)
 **Why it matters:** the env0 agent and every deployment run in containers. Kubernetes in Phase 5 builds directly on this.
 
 **Resources**
+- From your mentor (Pluralsight):
+  - [Docker Fundamentals for Developers](https://app.pluralsight.com/learning-paths/1398903d-e314-4744-98c3-94bb86d1c1da) (43h 48m learning path)
+  - [Hypervisor Types, Architecture, and Selection](https://app.pluralsight.com/ilx/video-courses/8a253bae-f92e-456c-95a9-09591254c033/course-overview) (1h)
 - [Docker "Get started" docs](https://docs.docker.com/get-started/) (free)
 - [Pluralsight](https://www.pluralsight.com): search "Docker fundamentals" or "Docker deep dive"
 - [Liz Rice, "Containers from scratch"](https://www.youtube.com/results?search_query=liz+rice+containers+from+scratch), if you skipped it in Phase 1
@@ -14,12 +17,12 @@ Weeks 10-11 (Jan 4 - Jan 17) · 12 hours · [Back to contents](TOC.md)
 
 ## Week by week: what to open
 
-Main course: **[Docker "Get started" guide](https://docs.docker.com/get-started/)** (free, hands-on). Pair it with one [Pluralsight](https://www.pluralsight.com) "Docker fundamentals" course if you want video.
+Main course: **[Docker "Get started" guide](https://docs.docker.com/get-started/)** (free, hands-on). Your mentor's [Docker Fundamentals for Developers](https://app.pluralsight.com/learning-paths/1398903d-e314-4744-98c3-94bb86d1c1da) path is the video version. It is 44 hours, and this phase has 12, so watch about 6 hours of video a week from the start of the path, in order. Skip ahead when you reach topics beyond images, containers, volumes, networking and Compose. Treat the rest as reference for later.
 
 | Week | Do this | Covers |
 | --- | --- | --- |
-| 10 | Get started: containerize an app, then the Dockerfile and image-building best practices pages (layers, cache, multi-stage). Pluralsight: images and Dockerfile modules | 4.1, start of 4.2 |
-| 11 | Get started: persisting data (volumes), networking, Docker Compose. Docs: push to a registry. Trivy "Getting started" | rest of 4.2, 4.3 |
+| 10 | [Hypervisor Types, Architecture, and Selection](https://app.pluralsight.com/ilx/video-courses/8a253bae-f92e-456c-95a9-09591254c033/course-overview) (1 hr, VMs vs containers). Pluralsight Docker path: first modules. Get started: containerize an app, then the Dockerfile and image-building best practices pages (layers, cache, multi-stage). Pluralsight: images and Dockerfile modules | 4.1, start of 4.2 |
+| 11 | Pluralsight Docker path: next modules (volumes, networking, Compose). Get started: persisting data (volumes), networking, Docker Compose. Docs: push to a registry. Trivy "Getting started" | rest of 4.2, 4.3 |
 
 ## 4.1 Images, layers and Dockerfiles
 

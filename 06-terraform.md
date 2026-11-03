@@ -10,7 +10,7 @@ Weeks 15-18 (Feb 8 - Mar 7) · 24 hours · [Back to contents](TOC.md)
 - [HashiCorp Developer Terraform tutorials](https://developer.hashicorp.com/terraform/tutorials) (free): "Get started" and exam prep
 - [Terraform docs](https://developer.hashicorp.com/terraform/docs)
 - [Official Terraform Associate exam page](https://developer.hashicorp.com/certifications/infrastructure-automation)
-- [Pluralsight](https://www.pluralsight.com) or [Coursera](https://www.coursera.org): a Terraform Associate course
+- From your mentor: [Terraform learning path](https://app.pluralsight.com/learning-paths/abe5a7d9-d031-4fe3-8bef-15a2fa79c34d) on Pluralsight (15h 57m)
 - [OpenTofu docs](https://opentofu.org/docs/)
 - Practice exams (Bryan Krausen's on Udemy are popular) for the last week
 
@@ -18,14 +18,14 @@ Weeks 15-18 (Feb 8 - Mar 7) · 24 hours · [Back to contents](TOC.md)
 
 ## Week by week: what to open
 
-Main course: **[HashiCorp Developer, Terraform "Get Started" tutorials](https://developer.hashicorp.com/terraform/tutorials)** (free, hands-on). Pick one video course (Pluralsight or Coursera Terraform Associate prep) and spread it over the four weeks. Keep the official exam objectives open and tick them off.
+Main course: **[HashiCorp Developer, Terraform "Get Started" tutorials](https://developer.hashicorp.com/terraform/tutorials)** (free, hands-on). Video: your mentor's [Terraform learning path](https://app.pluralsight.com/learning-paths/abe5a7d9-d031-4fe3-8bef-15a2fa79c34d) on Pluralsight (about 16 hours, so roughly 4 hours a week across the four weeks). Keep the official exam objectives open and tick them off.
 
 | Week | Do this | Covers |
 | --- | --- | --- |
-| 15 | Get Started: install, build, change and destroy infrastructure, input variables, outputs. Video course: first third | 6.1, start of 6.2 |
-| 16 | Docs: expressions, `count` and `for_each`, providers, data sources, lifecycle. Video course: second third | rest of 6.2, 6.3, start of 6.4 |
-| 17 | Tutorials: remote state, import, state commands, modules. Video course: last third | rest of 6.4, 6.5 |
-| 18 | Docs: workspaces, sensitive data. Review every exam objective. 2-3 full practice exams | 6.6, exam |
+| 15 | Get Started: install, build, change and destroy infrastructure, input variables, outputs. Pluralsight Terraform path: first quarter | 6.1, start of 6.2 |
+| 16 | Docs: expressions, `count` and `for_each`, providers, data sources, lifecycle. Pluralsight Terraform path: second quarter | rest of 6.2, 6.3, start of 6.4 |
+| 17 | Tutorials: remote state, import, state commands, modules. Pluralsight Terraform path: third quarter | rest of 6.4, 6.5 |
+| 18 | Pluralsight Terraform path: last quarter. Docs: workspaces, sensitive data. Review every exam objective. 2-3 full practice exams | 6.6, exam |
 
 ## 6.1 IaC concepts and the core workflow
 
