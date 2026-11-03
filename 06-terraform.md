@@ -1,8 +1,8 @@
 # Phase 6: Terraform / OpenTofu
 
-Weeks 15-18 (Feb 8 - Mar 7) · 24 hours · [Back to contents](TOC.md)
+Weeks 35-38 (Jun 28 - Jul 25) · 24 hours · [Back to contents](TOC.md)
 
-**Exam: HashiCorp Terraform Associate, by Mar 7.** Read the current exam objectives on the HashiCorp site first, and tick them off as you go.
+**Exam: HashiCorp Terraform Associate, by Jul 25.** Read the current exam objectives on the HashiCorp site first, and tick them off as you go.
 
 **Why it matters:** this is what env0 runs. OpenTofu is a compatible fork, so everything here applies. The exam covers Terraform, so learn the few differences as you go.
 
@@ -18,18 +18,18 @@ Weeks 15-18 (Feb 8 - Mar 7) · 24 hours · [Back to contents](TOC.md)
 
 ## Week by week: what to open
 
-Main course: **[HashiCorp Developer, Terraform "Get Started" tutorials](https://developer.hashicorp.com/terraform/tutorials)** (free, hands-on). Video: your mentor's [Terraform learning path](https://app.pluralsight.com/learning-paths/abe5a7d9-d031-4fe3-8bef-15a2fa79c34d) on Pluralsight (about 16 hours, so roughly 4 hours a week across the four weeks). Keep the official exam objectives open and tick them off.
+Mandatory: your mentor's [Terraform learning path](https://app.pluralsight.com/learning-paths/abe5a7d9-d031-4fe3-8bef-15a2fa79c34d) on Pluralsight (about 16 hours, 4 a week). Finish it. Add the free [HashiCorp Get Started tutorials](https://developer.hashicorp.com/terraform/tutorials) for hands-on practice, and keep the official exam objectives open and tick them off.
 
 | Week | Do this | Covers |
 | --- | --- | --- |
-| 15 | Get Started: install, build, change and destroy infrastructure, input variables, outputs. Pluralsight Terraform path: first quarter | 6.1, start of 6.2 |
-| 16 | Docs: expressions, `count` and `for_each`, providers, data sources, lifecycle. Pluralsight Terraform path: second quarter | rest of 6.2, 6.3, start of 6.4 |
-| 17 | Tutorials: remote state, import, state commands, modules. Pluralsight Terraform path: third quarter | rest of 6.4, 6.5 |
-| 18 | Pluralsight Terraform path: last quarter. Docs: workspaces, sensitive data. Review every exam objective. 2-3 full practice exams | 6.6, exam |
+| 35 | Terraform path: hours 1-4. Get Started: install, build, change and destroy infrastructure, input variables, outputs | 6.1, start of 6.2 |
+| 36 | Terraform path: hours 5-8. Docs: expressions, `count` and `for_each`, providers, data sources, lifecycle | rest of 6.2, 6.3, start of 6.4 |
+| 37 | Terraform path: hours 9-12. Tutorials: remote state, import, state commands, modules | rest of 6.4, 6.5 |
+| 38 | Terraform path: hours 13-16 (finish the path). Docs: workspaces, sensitive data. Review every exam objective. 2-3 full practice exams | 6.6, exam |
 
 ## 6.1 IaC concepts and the core workflow
 
-**Week 15 · 4 hrs** · [Take the quiz](quiz.html?t=6.1)
+**Week 35 · 4 hrs** · [Take the quiz](quiz.html?t=6.1)
 
 **Study**
 - What IaC is, declarative vs imperative
@@ -45,7 +45,7 @@ Main course: **[HashiCorp Developer, Terraform "Get Started" tutorials](https://
 
 ## 6.2 HCL: variables, outputs and expressions
 
-**Weeks 15-16 · 5 hrs** · [Take the quiz](quiz.html?t=6.2)
+**Weeks 35-36 · 5 hrs** · [Take the quiz](quiz.html?t=6.2)
 
 **Study**
 - Input variables: types, defaults, validation, `sensitive`
@@ -64,7 +64,7 @@ Main course: **[HashiCorp Developer, Terraform "Get Started" tutorials](https://
 
 ## 6.3 Providers, resources and data sources
 
-**Week 16 · 4 hrs** · [Take the quiz](quiz.html?t=6.3)
+**Week 36 · 4 hrs** · [Take the quiz](quiz.html?t=6.3)
 
 **Study**
 - Provider blocks, `required_providers`, version constraints
@@ -82,7 +82,7 @@ Main course: **[HashiCorp Developer, Terraform "Get Started" tutorials](https://
 
 ## 6.4 State, backends and drift
 
-**Weeks 16-17 · 5 hrs** · [Take the quiz](quiz.html?t=6.4)
+**Weeks 36-37 · 5 hrs** · [Take the quiz](quiz.html?t=6.4)
 
 **Study**
 - What state holds, and why it can contain secrets
@@ -101,7 +101,7 @@ Main course: **[HashiCorp Developer, Terraform "Get Started" tutorials](https://
 
 ## 6.5 Modules
 
-**Week 17 · 3 hrs** · [Take the quiz](quiz.html?t=6.5)
+**Week 37 · 3 hrs** · [Take the quiz](quiz.html?t=6.5)
 
 **Study**
 - Root and child modules, inputs and outputs
@@ -117,7 +117,7 @@ Main course: **[HashiCorp Developer, Terraform "Get Started" tutorials](https://
 
 ## 6.6 Workspaces, secrets and exam review
 
-**Week 18 · 3 hrs** · [Take the quiz](quiz.html?t=6.6)
+**Week 38 · 3 hrs** · [Take the quiz](quiz.html?t=6.6)
 
 **Study**
 - Workspaces: what they do and their limits

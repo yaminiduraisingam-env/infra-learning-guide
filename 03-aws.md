@@ -1,6 +1,6 @@
 # Phase 3: AWS (Cloud Practitioner)
 
-Weeks 7-9 (Dec 14 - Jan 3) · 18 hours · [Back to contents](TOC.md)
+Weeks 7-12 (Dec 14 - Jan 24) · 36 hours · [Back to contents](TOC.md)
 
 **Exam: AWS Certified Cloud Practitioner, by Jan 3.** The four exam areas are cloud concepts, security and compliance, cloud technology and services, and billing and pricing. Check the current exam guide when you book.
 
@@ -12,7 +12,7 @@ Weeks 7-9 (Dec 14 - Jan 3) · 18 hours · [Back to contents](TOC.md)
   - [AWS Core Compute](https://app.pluralsight.com/learning-paths/9e860671-6e3b-4ad1-8bac-4a4ff53447ce) (5h 6m)
   - [AWS Networking and Traffic Management](https://app.pluralsight.com/learning-paths/3e0cfd70-d397-4357-9808-c663bcbd5f64) (3h 38m)
   - [AWS Storage Fundamentals](https://app.pluralsight.com/ilx/video-courses/9382c46e-27d4-452a-9969-f1f24c46395f/course-overview) (1h)
-  - [AWS Certified Solutions Architect - Associate (SAA-C03): Scaling and Decoupling Architectures](https://app.pluralsight.com/ilx/video-courses/f4cdefa6-83dc-4aef-9efe-da42f72f6ba1/course-overview) (13h 41m). This is the next certification up, so save it for after the Cloud Practitioner exam.
+  - [AWS Certified Solutions Architect - Associate (SAA-C03): Scaling and Decoupling Architectures](https://app.pluralsight.com/ilx/video-courses/f4cdefa6-83dc-4aef-9efe-da42f72f6ba1/course-overview) (13h 41m). Covered in weeks 10-12, after the Cloud Practitioner exam.
 - [AWS Skill Builder](https://skillbuilder.aws): "AWS Cloud Practitioner Essentials" (free) and the official practice question set. Search the course name after signing in.
 - [Pluralsight](https://www.pluralsight.com) or [Coursera](https://www.coursera.org): a Cloud Practitioner exam prep course
 - [Tutorials Dojo](https://tutorialsdojo.com) practice exams (for the last 4 days)
@@ -21,17 +21,16 @@ Weeks 7-9 (Dec 14 - Jan 3) · 18 hours · [Back to contents](TOC.md)
 
 ## Week by week: what to open
 
-Main courses: your mentor's four Pluralsight courses (about 11 hours in total), starting with the CLF-C02 one, which matches the exam. Use **[AWS Skill Builder, "AWS Cloud Practitioner Essentials"](https://skillbuilder.aws)** (free) for what they don't cover: security, billing and pricing. Finish with practice exams.
+Mandatory: all five of your mentor's Pluralsight courses, about 25 hours in total. The first four (about 11 hours) are for the Cloud Practitioner exam in weeks 7-9. The fifth, SAA-C03 Scaling and Decoupling (about 14 hours), is weeks 10-12. Add **[AWS Skill Builder, "AWS Cloud Practitioner Essentials"](https://skillbuilder.aws)** (free) for the parts they don't cover: security, billing and pricing. Finish with practice exams.
 
 | Week | Do this | Covers |
 | --- | --- | --- |
 | 7 | Pluralsight: [CLF-C02 Cloud Foundations and Compute](https://app.pluralsight.com/library/courses/97bc79ee-8145-4aa7-8085-af58378da5f0) (1.5 hrs). Skill Builder Essentials: security module. Start [AWS Core Compute](https://app.pluralsight.com/learning-paths/9e860671-6e3b-4ad1-8bac-4a4ff53447ce) | 3.1, 3.2 |
 | 8 | Pluralsight: finish AWS Core Compute (5 hrs total), then [AWS Storage Fundamentals](https://app.pluralsight.com/ilx/video-courses/9382c46e-27d4-452a-9969-f1f24c46395f/course-overview) (1 hr) | 3.3, 3.4 |
-| 9 | Pluralsight: [AWS Networking and Traffic Management](https://app.pluralsight.com/learning-paths/3e0cfd70-d397-4357-9808-c663bcbd5f64) (3.6 hrs). Skill Builder Essentials: pricing and support module. Then 2-3 full practice exams (Skill Builder official set, Tutorials Dojo) | 3.5, 3.6, exam |
-
-**After the exam:** [SAA-C03 Scaling and Decoupling Architectures](https://app.pluralsight.com/ilx/video-courses/f4cdefa6-83dc-4aef-9efe-da42f72f6ba1/course-overview) (13 hrs) is the Solutions Architect Associate level. It is more than the Cloud Practitioner exam needs.
-
-Module names are from memory. Follow the order Skill Builder shows.
+| 9 | Pluralsight: [AWS Networking and Traffic Management](https://app.pluralsight.com/learning-paths/3e0cfd70-d397-4357-9808-c663bcbd5f64) (3.6 hrs). Skill Builder Essentials: pricing and support module. Then 2-3 full practice exams (Skill Builder official set, Tutorials Dojo). **Take the exam by Jan 3** | 3.5, 3.6, exam |
+| 10 | Pluralsight: [SAA-C03 Scaling and Decoupling Architectures](https://app.pluralsight.com/ilx/video-courses/f4cdefa6-83dc-4aef-9efe-da42f72f6ba1/course-overview), hours 1-5 | 3.7 |
+| 11 | SAA-C03 course: hours 6-10. Lab: load balancer and Auto Scaling group | 3.7 |
+| 12 | SAA-C03 course: hours 11-14 (finish). Lab: SQS queue with a consumer. Quiz 3.7 | 3.7 |
 
 ## 3.1 Cloud concepts and global infrastructure
 
@@ -138,3 +137,21 @@ Module names are from memory. Follow the order Skill Builder shows.
 - Book the exam (online proctored or at a test center).
 
 **Done when** you pass practice exams at 80% or higher.
+
+## 3.7 Scaling and decoupling architectures
+
+**Weeks 10-12 · 18 hrs** · [Take the quiz](quiz.html?t=3.7)
+
+**Study**
+- Elastic Load Balancing: ALB vs NLB, health checks, target groups
+- EC2 Auto Scaling: launch templates, scaling policies, target tracking
+- Decoupling with queues and topics: SQS, SNS, EventBridge
+- Caching and read scaling: ElastiCache, CloudFront, RDS read replicas
+- Designing for failure: multiple AZs, retries, dead-letter queues
+
+**Lab**
+- Put an ALB in front of an Auto Scaling group (free tier or a few cents), stop an instance, and watch it replace itself
+- Create an SQS queue with a Lambda consumer, send 20 messages, and look at the dead-letter queue when one fails
+- Delete everything when done and check Cost Explorer the next day
+
+**Done when** you can explain why a queue between two tiers lets each scale and fail on its own.

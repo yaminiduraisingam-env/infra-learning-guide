@@ -1,6 +1,6 @@
 # Phase 5: Kubernetes
 
-Weeks 12-14 (Jan 18 - Feb 7) · 18 hours · [Back to contents](TOC.md)
+Weeks 22-34 (Mar 29 - Jun 27) · 78 hours · [Back to contents](TOC.md)
 
 **Why it matters:** the env0 self-hosted agent is installed with Helm on Kubernetes. Understanding pods, services and RBAC lets you debug customer installs.
 
@@ -12,7 +12,7 @@ Weeks 12-14 (Jan 18 - Feb 7) · 18 hours · [Back to contents](TOC.md)
 - [Kubernetes Concepts docs](https://kubernetes.io/docs/concepts/)
 - [Killercoda](https://killercoda.com) (free in-browser labs)
 - [Pluralsight](https://www.pluralsight.com): search "Kubernetes fundamentals" or "Kubernetes for developers"
-- [Kelsey Hightower, "Kubernetes the Hard Way"](https://github.com/kelseyhightower/kubernetes-the-hard-way) (optional, after week 14)
+- [Kelsey Hightower, "Kubernetes the Hard Way"](https://github.com/kelseyhightower/kubernetes-the-hard-way) (extra, after week 34)
 - [Helm docs](https://helm.sh/docs/)
 - [kind](https://kind.sigs.k8s.io) for the local cluster
 
@@ -20,17 +20,27 @@ Weeks 12-14 (Jan 18 - Feb 7) · 18 hours · [Back to contents](TOC.md)
 
 ## Week by week: what to open
 
-Main course: **[Learn Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)** (6 interactive modules, free) plus the **[Concepts](https://kubernetes.io/docs/concepts/)** section of the Kubernetes docs. Video: your mentor's [Kubernetes learning path](https://app.pluralsight.com/learning-paths/dc7ecfd4-4685-40b7-a8b3-eae7a0940a7f) on Pluralsight. It is 66 hours and this phase has 18, so take the first courses in order for about 5 hours a week and stop when you've covered the topics in the table. The rest is reference for later. Optional: [Linux Foundation "Introduction to Kubernetes"](https://training.linuxfoundation.org/training/introduction-to-kubernetes/) (edX, free). After week 14, or in the buffer week: [Amazon EKS Quickstart](https://app.pluralsight.com/ilx/amazon-eks-quickstart/course-overview) (3 hrs), since env0 customers often run on EKS.
+Mandatory: your mentor's [Kubernetes learning path](https://app.pluralsight.com/learning-paths/dc7ecfd4-4685-40b7-a8b3-eae7a0940a7f) on Pluralsight (about 66 hours) and [Amazon EKS Quickstart](https://app.pluralsight.com/ilx/amazon-eks-quickstart/course-overview) (3 hours). Finish both. Add [Learn Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/) and the [Concepts docs](https://kubernetes.io/docs/concepts/) for hands-on practice. Follow the path in order. The hours below are a pace target (about 5.5 hours a week), so you finish the path by week 33.
 
 | Week | Do this | Covers |
 | --- | --- | --- |
-| 12 | Pluralsight Kubernetes path: first ~5 hrs (architecture, Pods, Deployments). Basics modules 1-3 (create a cluster, deploy an app, explore). Concepts docs: Pods, ReplicaSets, Deployments, Namespaces | 5.1 |
-| 13 | Pluralsight Kubernetes path: next ~5 hrs (Services, config, storage). Basics modules 4-6 (expose, scale, update). Concepts docs: Service, Ingress, ConfigMaps, Secrets, Volumes | 5.2, 5.3 |
-| 14 | Pluralsight Kubernetes path: next ~5 hrs (RBAC, scheduling, Helm where covered). Docs: [Using RBAC Authorization](https://kubernetes.io/docs/reference/access-authn-authz/rbac/), resource requests and limits, taints and tolerations. [Helm docs](https://helm.sh/docs/): quickstart and "Using Helm". Then the env0 `agent/helm` lab | 5.4, 5.5 |
+| 22 | Kubernetes path: hours 1-6. Basics modules 1-3 | 5.1 |
+| 23 | Kubernetes path: hours 7-11. Concepts: Pods, ReplicaSets, Deployments | 5.1 |
+| 24 | Kubernetes path: hours 12-17. Concepts: Namespaces, labels, Jobs, DaemonSets | 5.1 |
+| 25 | Kubernetes path: hours 18-22. Lab and quiz 5.1 | 5.1 |
+| 26 | Kubernetes path: hours 23-28. Basics modules 4-6 | 5.2 |
+| 27 | Kubernetes path: hours 29-33. Concepts: Service, Ingress | 5.2 |
+| 28 | Kubernetes path: hours 34-39. DNS, NetworkPolicies. Lab and quiz 5.2 | 5.2 |
+| 29 | Kubernetes path: hours 40-44. ConfigMaps, Secrets | 5.3 |
+| 30 | Kubernetes path: hours 45-50. Volumes, PV and PVC, StatefulSets. Lab and quiz 5.3 | 5.3 |
+| 31 | Kubernetes path: hours 51-55. [RBAC](https://kubernetes.io/docs/reference/access-authn-authz/rbac/) | 5.4 |
+| 32 | Kubernetes path: hours 56-61. Requests and limits, scheduling, probes. Lab and quiz 5.4 | 5.4 |
+| 33 | Kubernetes path: hours 62-66 (finish the path). [Helm docs](https://helm.sh/docs/), then the env0 `agent/helm` lab | 5.5 |
+| 34 | [Amazon EKS Quickstart](https://app.pluralsight.com/ilx/amazon-eks-quickstart/course-overview) (3 hrs). Troubleshooting practice. Quiz 5.5 | 5.5 |
 
 ## 5.1 Architecture and core objects
 
-**Week 12 · 6 hrs** · [Take the quiz](quiz.html?t=5.1)
+**Weeks 22-25 · 24 hrs** · [Take the quiz](quiz.html?t=5.1)
 
 **Study**
 - Control plane: API server, etcd, scheduler, controller manager
@@ -48,7 +58,7 @@ Main course: **[Learn Kubernetes Basics](https://kubernetes.io/docs/tutorials/ku
 
 ## 5.2 Services, ingress and DNS
 
-**Week 13 · 4 hrs** · [Take the quiz](quiz.html?t=5.2)
+**Weeks 26-28 · 18 hrs** · [Take the quiz](quiz.html?t=5.2)
 
 **Study**
 - Service types: ClusterIP, NodePort, LoadBalancer
@@ -67,7 +77,7 @@ Main course: **[Learn Kubernetes Basics](https://kubernetes.io/docs/tutorials/ku
 
 ## 5.3 Config, secrets and storage
 
-**Week 13 · 3 hrs** · [Take the quiz](quiz.html?t=5.3)
+**Weeks 29-30 · 12 hrs** · [Take the quiz](quiz.html?t=5.3)
 
 **Study**
 - ConfigMaps and Secrets as env vars and files
@@ -83,7 +93,7 @@ Main course: **[Learn Kubernetes Basics](https://kubernetes.io/docs/tutorials/ku
 
 ## 5.4 RBAC, scheduling and resources
 
-**Week 14 · 3 hrs** · [Take the quiz](quiz.html?t=5.4)
+**Weeks 31-32 · 12 hrs** · [Take the quiz](quiz.html?t=5.4)
 
 **Study**
 - ServiceAccounts, Roles, ClusterRoles, RoleBindings
@@ -101,7 +111,7 @@ Main course: **[Learn Kubernetes Basics](https://kubernetes.io/docs/tutorials/ku
 
 ## 5.5 Helm and troubleshooting
 
-**Week 14 · 2 hrs** · [Take the quiz](quiz.html?t=5.5)
+**Weeks 33-34 · 12 hrs** · [Take the quiz](quiz.html?t=5.5)
 
 **Study**
 - Charts, values, releases, `helm install/upgrade/rollback/uninstall`

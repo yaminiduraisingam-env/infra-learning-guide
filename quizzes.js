@@ -192,6 +192,18 @@ window.QUIZZES = {
     ],
   },
 
+  "3.7": {
+    phase: 3,
+    title: "Scaling and decoupling architectures",
+    q: [
+      ["Which service lets a producer and a consumer work independently by holding messages in a queue?", "Amazon SQS", "Amazon Route 53", "AWS KMS", "Amazon EBS", "The producer sends and moves on. The consumer pulls messages at its own pace."],
+      ["What is the difference between SNS and SQS?", "SNS pushes a message to many subscribers. SQS holds messages until a consumer pulls them", "SNS stores messages for weeks. SQS pushes to many subscribers", "They are identical", "SNS is a database", "A common pattern is SNS fanning out to several SQS queues."],
+      ["What can an Application Load Balancer do that a Network Load Balancer is not built for?", "Route by HTTP host name or path", "Handle TCP traffic", "Use static IPs", "Run in several AZs", "ALB works at layer 7. NLB works at layer 4 and is built for very high throughput."],
+      ["What does a target tracking scaling policy do?", "Adds or removes instances to keep a metric, such as average CPU, near a target value", "Scales only at a fixed time", "Backs up the instances", "Changes the instance type", "It works like a thermostat for capacity."],
+      ["Why put a queue between a web tier and a worker tier?", "It absorbs traffic spikes, and each tier can scale and fail independently", "It makes the web tier faster to deploy", "It encrypts the messages", "It replaces the load balancer", "If the workers are down, requests wait in the queue instead of being lost."],
+    ],
+  },
+
   // ---------- Phase 4: Containers ----------
   "4.1": {
     phase: 4,
