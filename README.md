@@ -2,7 +2,7 @@
 
 From the Linux kernel up to Terraform. 39 weeks, about 6 hours a week, two certifications on the way.
 
-Start date: **Monday, Nov 2, 2026**. Finish: **Sunday, Aug 1, 2027**.
+Start date: **Monday, Nov 9, 2026**. Finish: **Sunday, Aug 8, 2027**.
 
 ## Goal
 
@@ -14,13 +14,13 @@ Each phase ends with something you can explain out loud. If you can't explain it
 
 | Phase | Topic | Weeks | Dates | Hours | Milestone |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [Linux and kernel](01-linux.md) | 1-3 | Nov 2 - Nov 22 | 18 | |
-| 2 | [Networking](02-networking.md) | 4-6 | Nov 23 - Dec 13 | 18 | |
-| 3 | [AWS](03-aws.md) | 7-12 | Dec 14 - Jan 24 | 36 | **Cloud Practitioner exam by Jan 3** (week 9) |
-| 4 | [Containers](04-containers.md) | 13-21 | Jan 25 - Mar 28 | 54 | |
-| 5 | [Kubernetes](05-kubernetes.md) | 22-34 | Mar 29 - Jun 27 | 78 | |
-| 6 | [Terraform / OpenTofu](06-terraform.md) | 35-38 | Jun 28 - Jul 25 | 24 | **Terraform Associate exam by Jul 25** |
-| | Buffer: review, retakes, catch-up | 39 | Jul 26 - Aug 1 | 6 | |
+| 1 | [Linux and kernel](01-linux.md) | 1-3 | Nov 9 - Nov 29 | 18 | |
+| 2 | [Networking](02-networking.md) | 4-6 | Nov 30 - Dec 20 | 18 | |
+| 3 | [AWS](03-aws.md) | 7-12 | Dec 21 - Jan 31 | 36 | **Cloud Practitioner exam by Jan 10** (week 9) |
+| 4 | [Containers](04-containers.md) | 13-21 | Feb 1 - Apr 4 | 54 | |
+| 5 | [Kubernetes](05-kubernetes.md) | 22-34 | Apr 5 - Jul 4 | 78 | |
+| 6 | [Terraform / OpenTofu](06-terraform.md) | 35-38 | Jul 5 - Aug 1 | 24 | **Terraform Associate exam by Aug 1** |
+| | Buffer: review, retakes, catch-up | 39 | Aug 2 - Aug 8 | 6 | |
 
 Weeks 7-9 fall over the holidays. If you lose a week, use the buffer week at the end. All of your mentor's Pluralsight courses are mandatory, which is why Containers and Kubernetes run long. Their 44-hour and 66-hour learning paths set the pace.
 
@@ -61,8 +61,8 @@ On github.com itself the quiz links open the HTML source. Use the Pages site to 
 
 | Exam | Target date | Prep |
 | --- | --- | --- |
-| AWS Certified Cloud Practitioner | by Jan 3 | Phase 3, then 2-3 full practice exams in the last 4 days |
-| HashiCorp Terraform Associate | by Jul 25 | Phase 6, then 2-3 full practice exams in the last week |
+| AWS Certified Cloud Practitioner | by Jan 10 | Phase 3, then 2-3 full practice exams in the last 4 days |
+| HashiCorp Terraform Associate | by Aug 1 | Phase 6, then 2-3 full practice exams in the last week |
 
 Book both dates now. Check the official exam guides for the current objectives and prices before you book, as both exams get updated.
 

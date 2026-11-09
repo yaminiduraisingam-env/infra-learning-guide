@@ -1,8 +1,8 @@
 # Phase 3: AWS (Cloud Practitioner)
 
-Weeks 7-12 (Dec 14 - Jan 24) · 36 hours · [Back to contents](TOC.md)
+Weeks 7-12 (Dec 21 - Jan 31) · 36 hours · [Back to contents](TOC.md)
 
-**Exam: AWS Certified Cloud Practitioner, by Jan 3.** The four exam areas are cloud concepts, security and compliance, cloud technology and services, and billing and pricing. Check the current exam guide when you book.
+**Exam: AWS Certified Cloud Practitioner, by Jan 10.** The four exam areas are cloud concepts, security and compliance, cloud technology and services, and billing and pricing. Check the current exam guide when you book.
 
 **Why it matters:** env0's services run on AWS, and customers connect their AWS accounts through roles and credentials.
 
@@ -27,7 +27,7 @@ Mandatory: all five of your mentor's Pluralsight courses, about 25 hours in tota
 | --- | --- | --- |
 | 7 | Pluralsight: [CLF-C02 Cloud Foundations and Compute](https://app.pluralsight.com/library/courses/97bc79ee-8145-4aa7-8085-af58378da5f0) (1.5 hrs). Skill Builder Essentials: security module. Start [AWS Core Compute](https://app.pluralsight.com/learning-paths/9e860671-6e3b-4ad1-8bac-4a4ff53447ce) | 3.1, 3.2 |
 | 8 | Pluralsight: finish AWS Core Compute (5 hrs total), then [AWS Storage Fundamentals](https://app.pluralsight.com/ilx/video-courses/9382c46e-27d4-452a-9969-f1f24c46395f/course-overview) (1 hr) | 3.3, 3.4 |
-| 9 | Pluralsight: [AWS Networking and Traffic Management](https://app.pluralsight.com/learning-paths/3e0cfd70-d397-4357-9808-c663bcbd5f64) (3.6 hrs). Skill Builder Essentials: pricing and support module. Then 2-3 full practice exams (Skill Builder official set, Tutorials Dojo). **Take the exam by Jan 3** | 3.5, 3.6, exam |
+| 9 | Pluralsight: [AWS Networking and Traffic Management](https://app.pluralsight.com/learning-paths/3e0cfd70-d397-4357-9808-c663bcbd5f64) (3.6 hrs). Skill Builder Essentials: pricing and support module. Then 2-3 full practice exams (Skill Builder official set, Tutorials Dojo). **Take the exam by Jan 10** | 3.5, 3.6, exam |
 | 10 | Pluralsight: [SAA-C03 Scaling and Decoupling Architectures](https://app.pluralsight.com/ilx/video-courses/f4cdefa6-83dc-4aef-9efe-da42f72f6ba1/course-overview), hours 1-5 | 3.7 |
 | 11 | SAA-C03 course: hours 6-10. Lab: load balancer and Auto Scaling group | 3.7 |
 | 12 | SAA-C03 course: hours 11-14 (finish). Lab: SQS queue with a consumer. Quiz 3.7 | 3.7 |

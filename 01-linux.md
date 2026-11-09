@@ -1,6 +1,6 @@
 # Phase 1: Linux and kernel
 
-Weeks 1-3 (Nov 2 - Nov 22) · 18 hours · [Back to contents](TOC.md)
+Weeks 1-3 (Nov 9 - Nov 29) · 18 hours · [Back to contents](TOC.md)
 
 **Why it matters:** every container, Kubernetes node and agent runs on Linux. Most "weird" production problems (OOM kills, stuck processes, full disks) are Linux problems.
 

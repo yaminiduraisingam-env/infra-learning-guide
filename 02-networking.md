@@ -1,6 +1,6 @@
 # Phase 2: Networking
 
-Weeks 4-6 (Nov 23 - Dec 13) · 18 hours · [Back to contents](TOC.md)
+Weeks 4-6 (Nov 30 - Dec 20) · 18 hours · [Back to contents](TOC.md)
 
 **Why it matters:** most customer problems with agents, proxies, VCS connections and cloud accounts are network problems. You should be able to say where in the path a failure is.
 

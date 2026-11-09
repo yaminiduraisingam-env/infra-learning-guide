@@ -1,6 +1,6 @@
 # Phase 5: Kubernetes
 
-Weeks 22-34 (Mar 29 - Jun 27) · 78 hours · [Back to contents](TOC.md)
+Weeks 22-34 (Apr 5 - Jul 4) · 78 hours · [Back to contents](TOC.md)
 
 **Why it matters:** the env0 self-hosted agent is installed with Helm on Kubernetes. Understanding pods, services and RBAC lets you debug customer installs.
 

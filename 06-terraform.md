@@ -1,8 +1,8 @@
 # Phase 6: Terraform / OpenTofu
 
-Weeks 35-38 (Jun 28 - Jul 25) · 24 hours · [Back to contents](TOC.md)
+Weeks 35-38 (Jul 5 - Aug 1) · 24 hours · [Back to contents](TOC.md)
 
-**Exam: HashiCorp Terraform Associate, by Jul 25.** Read the current exam objectives on the HashiCorp site first, and tick them off as you go.
+**Exam: HashiCorp Terraform Associate, by Aug 1.** Read the current exam objectives on the HashiCorp site first, and tick them off as you go.
 
 **Why it matters:** this is what env0 runs. OpenTofu is a compatible fork, so everything here applies. The exam covers Terraform, so learn the few differences as you go.
 
